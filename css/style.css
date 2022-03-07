@@ -221,3 +221,169 @@ a {
     font-size: 24px;
     font-weight: 300;
 }
+
+.benefits {
+    margin-bottom: 100px;
+}
+
+.benefits__inner {
+    display: flex;
+}
+
+.benefits__images {
+    margin-right: 95px;
+}
+
+.benefits__content {
+    width: 100%;
+    color: #fff;
+}
+
+.benefits__title {
+    margin-left: 185px;
+}
+
+.benefits__list {
+    list-style: none;
+    background-color: #21062A;
+    padding: 25px 0 25px 185px;
+}
+
+.benefits__item {
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+.benefits__item-num {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.benefits__item-title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+.benefits__item-text {
+    color: #C4C4C4;
+}
+
+.carusel {
+    margin-bottom: 100px;
+}
+
+.carusel__inner {
+    margin: 0 -7px;
+}
+
+.carusel__item {
+    margin: 0 7px;
+}
+
+.carusel__item-box {
+    border: 1px solid #C4C4C4;
+    padding: 6px 6px 16px 6px;
+    text-align: all .5s;
+}
+
+.carusel__item-box:hover {
+    color: #fff;
+    background-color: #5A0D67;
+    border-color: #5A0D67;
+}
+
+.carusel__item-img {
+    max-width: 100%;
+    margin-bottom: 23px;
+}
+
+.carusel__item-title {
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.carusel .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.carusel .slick-dots button {
+    font-size: 0;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+    background-color: #C4C4C4;
+    width: 60px;
+    height: 3px;
+}
+
+.carusel .slick-active button {
+    background-color: #5A0D67;
+    height: 3px;
+}
+
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__list {
+    list-style: none;
+}
+
+.contacts__item {
+    margin-bottom: 20px;
+}
+
+.contacts__item-title {
+    color: #5A0D67;
+}
+
+.contacts__form {
+    background-color: #21062A;
+    padding: 50px 75px 57px;
+    text-align: center;
+}
+
+.contacts__title {
+    color: #fff;
+    margin-bottom: 16px;
+    margin-left: 53px;
+    text-align: left;
+}
+
+.contacts__title::after {
+    background-color: #fff;
+}
+
+.contacts__input {
+    background-color: transparent;
+    width: 450px;
+    height: 75px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 24px;
+    padding: 0 15px;
+}
+
+.contacts__input::placeholder {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #C4C4C4;
+}
+
+.contacts__btn {
+    border: none;
+    color: #fff;
+    margin-top: 70px;
+    cursor: pointer;
+}
